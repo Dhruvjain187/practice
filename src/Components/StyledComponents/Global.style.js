@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 1.15em;
     margin: 0;
     padding: 0;
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
   }
 
