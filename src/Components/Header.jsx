@@ -9,16 +9,16 @@ export default function Header() {
     return (
         <>
             <Nav>
-                <Flex><NavLink to="/">Fashion</NavLink></Flex>
+                <Flex className="flex1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL_noLpFg1UfUCDWLEfUmOFTSPlck8HHls9A&s" alt="" /></Flex>
 
-                <Flex>
+                <Flex className="flex2">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/men">Mens</NavLink>
                     <NavLink to="/women">Womens</NavLink>
                     <NavLink to="/kid">kids</NavLink>
                 </Flex>
 
-                <Flex>
+                <Flex className="flex3">
                     <input type="checkbox" id="sidebar-active" />
                     <label htmlFor="sidebar-active" className="open-sidebar"><i className="fa-solid fa-bars"></i></label>
                     <Flex className="link-container">

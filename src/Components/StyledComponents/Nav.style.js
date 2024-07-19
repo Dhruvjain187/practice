@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
     display:flex;
     justify-content:space-between;
-    background-color:blue;
+    background-color:white;
     padding:20px 30px;
     width:100%;
     height:4em;
@@ -13,8 +13,20 @@ export const Nav = styled.nav`
     top:0;
     z-index:10;
 
+
+    
+    .flex1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+
     & input,label{
         display:none;
+    }
+
+    .open-sidebar .fa-solid{
+        color:black;
     }
 
     @media(min-width:410px){
@@ -26,6 +38,10 @@ export const Nav = styled.nav`
     @media(max-width:800px){
         div:first-child{
             display:none;
+        }
+
+        &{
+            padding: 0.5em;
         }
 
         
@@ -44,7 +60,7 @@ export const Nav = styled.nav`
             top:0;
             right:0;
             z-index:10;
-            width:200px;
+            width:11em;
             background-color: rgba(104, 95, 95, 0.5);
 
         }
@@ -52,6 +68,7 @@ export const Nav = styled.nav`
         
 
         .link-container a{
+            color: white;
             height:auto;
             width:100%;
             padding:30px 20px 30px 20px

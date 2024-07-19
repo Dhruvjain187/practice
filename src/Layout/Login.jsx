@@ -1,7 +1,5 @@
 import { CardContainer } from "../Components/StyledComponents/CardContainer";
 import { StyledForm } from "../Components/StyledComponents/Form";
-import TextField from '@mui/material/TextField';
-
 
 
 export default function Login() {
@@ -10,13 +8,13 @@ export default function Login() {
         <CardContainer>
             <StyledForm>
                 <label htmlFor="mailid">Enter Your Email
-                    <input type="email" id="mailid" placeholder="mailid" required />
                 </label>
+                <input type="email" id="mailid" placeholder="mailid" required />
                 <br />
                 <br />
                 <label htmlFor="password">Enter Your password
-                    <input type="password" id="password" placeholder="password" required />
                 </label>
+                <input type="password" id="password" placeholder="password" required />
                 <br />
                 <br />
                 <button>Login</button>
